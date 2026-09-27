@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#fff6f8">
+  <title>Для тебя ❤️</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="ambient ambient-one"></div>
+  <div class="ambient ambient-two"></div>
+  <div id="hearts" class="hearts" aria-hidden="true"></div>
+
+  <header class="topbar">
+    <a href="#home" class="brand"><span>♥</span> <span data-text="brand">для тебя</span></a>
+    <nav>
+      <a href="#letter">Письмо</a>
+      <a href="#moments">Почему ты</a>
+      <a href="#surprise">Сюрприз</a>
+    </nav>
+    <button id="themeToggle" class="icon-button" aria-label="Переключить тему">☾</button>
+  </header>
+
+  <main>
+    <section id="home" class="hero section">
+      <div class="hero-copy reveal">
+        <span class="eyebrow"><span class="spark">✦</span> <span data-text="eyebrow">маленькая страница для особенного человека</span></span>
+        <h1><span data-text="title">Ты — моё любимое</span><br><em data-text="titleAccent">«что-то» в этом мире.</em></h1>
+        <p data-text="subtitle">Я хотел сделать для тебя место, где всё будет только о тебе. Без повода. Просто потому что ты особенная.</p>
+        <div class="hero-actions">
+          <a href="#letter" class="button primary" data-text="letterButton">Прочитать письмо</a>
+          <button id="heartButton" class="button secondary"><span>♥</span> Нажми сюда</button>
+        </div>
+      </div>
+
+      <div class="hero-card reveal">
+        <div class="orbit orbit-one"></div>
+        <div class="orbit orbit-two"></div>
+        <div class="main-heart">♥</div>
+        <div class="floating-note note-one">ты ✨</div>
+        <div class="floating-note note-two">особенная</div>
+        <div class="floating-note note-three">♡</div>
+      </div>
+    </section>
+
+    <section id="letter" class="section">
+      <div class="section-heading reveal">
+        <span class="eyebrow">01 / письмо</span>
+        <h2 data-text="letterTitle">Несколько слов для тебя</h2>
+      </div>
+
+      <div class="letter reveal">
+        <div class="letter-top">
+          <span>♥</span>
+          <span data-text="letterDate">с любовью</span>
+        </div>
+        <p data-text="letterP1">Знаешь, иногда совсем не нужны большие слова, чтобы сказать человеку, насколько он важен.</p>
+        <p data-text="letterP2">Мне просто хочется, чтобы ты чаще улыбалась, меньше переживала и всегда помнила: ты заслуживаешь самых тёплых моментов.</p>
+        <p data-text="letterP3">Спасибо тебе за твою улыбку, за твой характер, за твои маленькие привычки и за то, что рядом с тобой обычный день становится немного красивее.</p>
+        <p class="signature" data-text="signature">Твой человек ❤️</p>
+      </div>
+    </section>
+
+    <section id="moments" class="section">
+      <div class="section-heading reveal">
+        <span class="eyebrow">02 / почему ты</span>
+        <h2 data-text="reasonsTitle">Потому что ты — это ты.</h2>
+        <p data-text="reasonsSubtitle">Не идеальная. Не из фильма. Просто настоящая — и именно поэтому особенная.</p>
+      </div>
+
+      <div class="cards">
+        <article class="feature-card reveal">
+          <div class="card-icon">✦</div>
+          <h3 data-text="card1Title">Твоя улыбка</h3>
+          <p data-text="card1Text">Есть улыбки, которые просто красивые. А есть те, после которых самому хочется улыбаться.</p>
+        </article>
+        <article class="feature-card reveal">
+          <div class="card-icon">♡</div>
+          <h3 data-text="card2Title">Твоя особенность</h3>
+          <p data-text="card2Text">В тебе есть то, что невозможно нормально объяснить словами. Это просто чувствуется.</p>
+        </article>
+        <article class="feature-card reveal">
+          <div class="card-icon">∞</div>
+          <h3 data-text="card3Title">Твои мелочи</h3>
+          <p data-text="card3Text">Именно маленькие детали иногда становятся самыми любимыми воспоминаниями.</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="surprise" class="section surprise-section">
+      <div class="surprise-box reveal">
+        <span class="eyebrow">03 / секрет</span>
+        <h2 data-text="surpriseTitle">У меня для тебя кое-что есть...</h2>
+        <p data-text="surpriseSubtitle">Но сначала нужно нажать на кнопку.</p>
+        <button id="surpriseButton" class="button primary" data-text="surpriseButton">Открыть сюрприз 🎁</button>
+        <div id="surpriseMessage" class="surprise-message" hidden>
+          <div class="big-heart">♥</div>
+          <h3 data-text="surpriseMessageTitle">Если ты это читаешь — улыбайся.</h3>
+          <p data-text="surpriseMessageText">Потому что где-то прямо сейчас есть человек, который очень рад, что ты есть. ❤️</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="final-section section">
+      <div class="final-card reveal">
+        <div class="mini-heart">♥</div>
+        <h2 data-text="finalTitle">Просто оставайся собой.</h2>
+        <p data-text="finalText">И никогда не забывай, насколько ты прекрасна.</p>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <span>Сделано специально для <span data-text="footerName">тебя</span> ♥</span>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
